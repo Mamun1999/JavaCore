@@ -11,7 +11,7 @@ public class Calculator {
         int ans=0;
 
 
-        while (true){
+        while (true) {
             System.out.println("Enter operator: ");
             char op=input.next().trim().charAt(0);
             if(op=='+' || op== '-'|| op== '*'|| op=='/'|| op=='%'){
@@ -47,5 +47,40 @@ public class Calculator {
             }
 
         }
+
+//        Scanner in=new Scanner(System.in);
+//        System.out.println("Enter operator: ");
+//           char op=in.next().trim().charAt(0);
+//          int ans=0;
+//        System.out.println("Enter two number: ");
+//        int num1=in.nextInt();
+//        int num2=in.nextInt();
+//           switch (op){
+//
+//               case '+':
+//
+//                   ans=num1+num2;
+//                   System.out.println("ans is "+ans);
+//                   break;
+//               case '-':
+//
+//                   ans=num1-num2;
+//                   System.out.println("ans is "+ans);
+//                   break;
+//               case '*':
+//
+//                   ans=num1*num2;
+//                   System.out.println("ans is "+ans);
+//                   break;
+//
+//               case '/':
+//                   if(num2!=0){
+//                   ans=num1/num2;
+//                   System.out.println("ans is "+ans);
+//                   break;}
+//               default:
+//                   System.out.println("please enter valid");
+//
+//        }
     }
 }
