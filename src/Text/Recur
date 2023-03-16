@@ -1,0 +1,21 @@
+Function calling: When a function is calling and working on its procedure in that meantime it is staying in stack memory
+until it finishes its working.
+if we do not use base condition then
+ recursive function will print value and call itself then print value then again call itself and in very time it will take space int the stack memory.
+  when stack will fill then we will get a stackoverflow error.
+
+     Stack
+     --------
+     print(3)  3     nothing left so finish and leave from stack 3->X
+     --------
+
+     --------
+     print(2)  2     2->X
+     --------
+
+     --------
+     print(1)  1     3->x
+     --------
+     --------
+     main()    start  4->X
+     --------
